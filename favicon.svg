@@ -1,0 +1,18 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <!-- Outer Circle (WHAT - Blue, neutral background) -->
+  <circle cx="250" cy="250" r="200" fill="#3B82F6" />
+  <!-- Middle Circle (HOW - Teal, with subtle white separator) -->
+  <circle cx="250" cy="250" r="130" fill="#10B981" stroke="#FFFFFF" stroke-width="2"/>
+  <!-- Inner Circle (WHY - Orange, with subtle white separator) -->
+  <circle cx="250" cy="250" r="70" fill="#F59E0B" stroke="#FFFFFF" stroke-width="2"/>
+  <!-- Text WHY (center) -->
+  <text x="250" y="255" font-size="30" text-anchor="middle" fill="#111827"
+        font-family="Inter, Arial, Helvetica, sans-serif" font-weight="800" letter-spacing="1">WHY</text>
+  <!-- Text HOW (lower part of middle ring) -->
+  <text x="250" y="360" font-size="24" text-anchor="middle" fill="#111827"
+        font-family="Inter, Arial, Helvetica, sans-serif" font-weight="700">HOW</text>
+  <!-- Text WHAT (lower part of outer ring) -->
+  <text x="250" y="430" font-size="24" text-anchor="middle" fill="#111827"
+        font-family="Inter, Arial, Helvetica, sans-serif" font-weight="700">WHAT</text>
+</svg>
